@@ -3,7 +3,8 @@ public class Main {
         System.out.println("Hello world!");
         showDirectedGragh();
     }
-    public static void showDirectedGragh(){
+
+    public static void showDirectedGragh(){//增加新函数
         System.out.println("gragh");
     }
 }
