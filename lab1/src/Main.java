@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
     // 图的数据结构：邻接表表示法，存储出边
-    private static Map<String, Map<String, Integer>> graph = new HashMap<>();
+    static Map<String, Map<String, Integer>> graph = new HashMap<>();
 
     // 所有最短路径的结构化类
     private static class AllPathsResult {
